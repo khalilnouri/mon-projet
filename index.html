@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Cosmétique</title>
+</head>
+
+<body>
+    <!--header-->
+    <header>
+        <a href="index.html"><img src="im/logo.png" alt="logo"></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+                <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+                <li><a href="#menu" onclick="toggleMenu();">Produits</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                <li class="cart"><a href="#">panier </a></li>
+                <a href="connexion.html" class="btn-connexion" onclick="toggleMenu();"><i class="fas fa-user"></i> Connexion</a>
+                
+            </ul>
+        </nav>
+    </header>
+    <!--fin header-->
+
+    <!--main-->
+    <main>
+        <section class="banniere" id="banniere">
+            <div class="contenu">
+
+                <h2 class="titre-texte"><span>D</span>ES PROUDUITS</h2>
+                <p>Découvrir notre produits ici</p>
+                <a href="#menu" onclick="toggleMenu();" class="btn1"> Notre Produits</a>
+
+            </div>
+        </section>
+        <section class="apropos" id="apropos">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titre-texte"><span>A</span>propos de nous</h2>
+                    <p>nous somme une entreprise de cosmétique on met en valeur la beauté  du femme par tous qui est creme pour visage et corps, soin pour cheveux et maquillage de haut gamme 
+                    </p>
+                    
+                </div>
+               
+            </div>
+        </section>
+        <section class="menu" id="menu">
+            <div class="titre">
+                <h2 class="titre-texte"><span>P</span>ROUDUITS</h2>
+
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <a href="creme.html"><img src="im/Creme/cream-1.jpg" alt=""></a>
+                    </div>
+                    <div class="text">
+                        <h3>Creme</h3>
+                        <div class="rate">
+                            <input type="radio" class="star5" name="rate" value="5" />
+                            <label for="star1" title="text">1stars</label>
+                            <input type="radio" class="star4" name="rate" value="4" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" class="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" class="star2" name="rate" value="2" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" class="star1" name="rate" value="1" />
+                            <label for="star5" title="text">5 star</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imbox">
+                        <a href="maquillage.html"><img src="im/maquillage/1.jpg" alt=""></a>
+                    </div>
+                    <div class="text">
+                        <h3>Maquillage</h3>
+                        <div class="rate">
+                            <input type="radio" class="star5" name="rate" value="5" />
+                            <label for="star1" title="text">1stars</label>
+                            <input type="radio" class="star4" name="rate" value="4" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" class="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" class="star2" name="rate" value="2" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" class="star1" name="rate" value="1" />
+                            <label for="star5" title="text">5 star</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imbox">
+                        <a href="manucure.html"><img src="im/manucure/mauncure.jpg" alt=""></a>
+                    </div>
+                    <div class="text">
+                        <h3>Manucure</h3>
+                        <div class="rate">
+                            <input type="radio" class="star5" name="rate" value="5" />
+                            <label for="star1" title="text">1stars</label>
+                            <input type="radio" class="star4" name="rate" value="4" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" class="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" class="star2" name="rate" value="2" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" class="star1" name="rate" value="1" />
+                            <label for="star5" title="text">5 star</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="imbox">
+                        <a href="shampoinggel.html"><img src="im/shampoing & gel douche/11.jpg" alt=""></a>
+                    </div>
+                    <div class="text">
+                        <h3>Shampoing & Gel douche</h3>
+                        <div class="rate">
+                            <input type="radio" class="star5" name="rate" value="5" />
+                            <label for="star1" title="text">1stars</label>
+                            <input type="radio" class="star4" name="rate" value="4" />
+                            <label for="star2" title="text">2 stars</label>
+                            <input type="radio" class="star3" name="rate" value="3" />
+                            <label for="star3" title="text">3 stars</label>
+                            <input type="radio" class="star2" name="rate" value="2" />
+                            <label for="star4" title="text">4 stars</label>
+                            <input type="radio" class="star1" name="rate" value="1" />
+                            <label for="star5" title="text">5 star</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+        <section class="temoignage" id="temoignage">
+            <div class="titre blanc">
+                <h2 class="titre-texte"><span>Q</span>ue Disent Nos Clients</h2>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <img src="1avis.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>J'ai testé une creme chez vous, j'ai vraiment eu la sensation d'être métamorphosée , 
+                            autant plus que l'accueil a été excellent et chaleureux. Je reviendrai avec plaisir.</p>
+                        <h3> CABANAC Sarra</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="2avis.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Des prestations au top! Les prix sont très raisonnables petits soins pour ses clientes,
+                             c'est une vrai différence par rapport à d'autres. Merci de nous rendre belle.</p>
+                        <h3>LOPES S Jennifer</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="3avis.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p>Très bien , et prise en charge immédiatement. Les prix sont raisonnables.
+                            Je recommande sans problème très professionnelle et y en toute confiance.</p>
+                        <h3>CHARLET Berthrand</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="titre noir">
+                <h2 class="titre-text"><span>C</span>ontact</h2>
+                <p>pour plus d'information n'hésitez pas à nous contacter.</p>
+            </div>
+            <div class="contactform">
+                <h3>Envoyer un message</h3>
+                <div class="inputboite">
+                    <input type="text" placeholder="Nom">
+                </div>
+                <div class="inputboite">
+                    <input type="text" placeholder="email">
+                </div>
+                <div class="inputboite">
+                    <textarea placeholder="message"></textarea>
+                </div>
+                <div class="inputboite">
+                    <input type="submit" value="envoyer">
+                </div>
+            </div>
+        </section>
+
+    </main>
+  
+    <!--fin main-->
+
+<!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>entreprise</h4>
+                    <ul>
+                        <li><a href="#apropos" onclick="toggleMenu();">à propos de nous</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>contact</h4>
+                    <ul>
+                        <li><a href="#contact" onclick="toggleMenu();">contacte nous</a></li>
+                        
+                    </ul>
+                </div>
+               
+                <div class="footer-col">
+                    <h4>En ligne</h4>
+                    <ul>
+                        <li><a href="creme.html">Creme</a></li>
+                        <li><a href="maquillage.html">Maquillage</a></li>
+                        <li><a href="shampoinggel.html">Gel Douche & Shompoing</a></li>
+                        <li><a href="manucure.html">Manucure</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="copyright">
+                <p>copyright &copy; 2022 </p>
+            </div>
+            <div>
+                <button onclick="retourHaut()" id="haut" title="Retour haut de page"><i class="fal fa-arrow-circle-up"></i> </button>
+            </div>
+        </div>
+    </footer>
+
+    <!--fin footer-->
+
+
+</body>
+
+<script type="text/javascript" src="app.js"></script>
+
+</html>
